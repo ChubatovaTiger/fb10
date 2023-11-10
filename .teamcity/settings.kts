@@ -31,4 +31,9 @@ project {
 
 object Build1 : BuildType({
     name = "build1"
+    steps {
+        script {
+            scriptContent = "ls"
+        }
+    }
 })
